@@ -1,0 +1,177 @@
+body {
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+#contact {
+	color: blue;
+	padding-top: 200px;
+	padding-bottom: 500px;
+}
+
+#contact h1 {
+	padding-left: 10px;
+	padding-bottom: 10px;
+	width: 90%;
+	border-width: 1px;
+	border-left-style: dotted;
+	border-left-color: blue;
+	border-bottom-style: dotted;
+	border-bottom-color: blue;
+}
+
+#projects {
+	height: 800px;
+	padding-top: 100px;
+}
+
+#project {
+	float: left;
+	max-width: 200px;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+#projects h1 {
+	margin-left: 5px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	width: 90%;
+	border-width: 1px;
+	border-left-style: dotted;
+	border-left-color: blue;
+	border-bottom-style: dotted;
+	border-bottom-color: blue;
+}
+
+#projects h1:hover {
+	background-color: blue;
+	color: white;
+	border-width: 2px;
+}
+
+#project h1 {
+	margin-bottom: 10px;
+}
+
+#project p {
+	margin-top: 0;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	color: blue;
+}
+
+#row {
+	width: 75%;
+	margin-left: 250px;
+	margin-bottom: 30px;
+}
+
+
+#header {
+	width: 50%;
+	min-height: 400px;
+	padding-bottom: 400px;
+}
+
+#header h1 {
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 0;
+	color: blue;
+	font-size: 200%;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	border-width: 1px;
+	border-left-style: dotted;
+	border-left-color: blue;
+	border-bottom-style: dotted;
+	border-bottom-color: blue;
+}
+
+#header h2 {
+	margin-top: 0;
+	padding-top: 5px;
+	padding-left: 10px;
+	color: blue;
+}
+
+#menu {
+	position: fixed;
+	padding: 0 0 20px;
+	left: 0;
+	min-width: 15%;
+	top: 0;
+}
+
+#menu h1 {
+	margin-left: 50px;
+	padding: 5px 10px;
+	background-clip: text;
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: blue;
+    color: blue;
+    max-width: 75%;
+    min-width: 75%;
+    box-shadow: -5px -5px 0 blue;
+}
+
+#menu h1:hover {
+	background-color: blue;
+	color: white;
+	box-shadow: blue;
+} 
+
+
+#header h4 {
+	margin-top: 0;
+	color: white;
+	font-size: 100%;
+}
+
+#header h4:hover {
+	font-size: 300%
+}
+
+
+#col {
+	background-image: linear-gradient(white, blue);
+	overflow: hidden;
+	background-color: white;
+	opacity: 0.8;
+	border-width: 1px;
+	border-style: solid;
+	border-color: blue;
+    color: blue;
+    box-shadow: -15px -15px 0 blue;
+  	margin-bottom: 20px;
+   	text-align: center;
+   	height: 200px;
+   	min-width: 200px;
+   	max-width: 25%;
+   	display: inline-block;
+    
+}
+
+img {
+	width: 180%;
+	opacity: 0.7;
+}
+
+#col:hover {
+	opacity: 1;
+}
+
+
+h1, h2, h3 {
+	color: blue;
+}

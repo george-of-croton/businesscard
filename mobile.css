@@ -1,0 +1,151 @@
+body {
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+#contact {
+	height: 550px;
+}
+
+#projects {
+	height: 600px;
+	padding-top: 150px;
+}
+
+#project {
+	max-width: 3000px;
+	margin-right: 20px;
+}
+
+#projects h1 {
+	margin-left: 5px;
+	margin-bottom: 50px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	width: 25%;
+	border-width: 1px;
+	border-left-style: dotted;
+	border-left-color: blue;
+	border-bottom-style: dotted;
+	border-bottom-color: blue;
+}
+
+#row {
+	width: 75%;
+	margin-left: 20%;
+	margin-right: 12.5%;
+	margin-bottom: 30px;
+}
+
+
+#header {
+	width: 50%;
+	min-height: 500px;
+}
+
+#header h1 {
+	width: 25%;
+	margin-top: 5%;
+	margin-bottom: 0;
+	color: blue;
+	font-size: 200%;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	border-width: 1px;
+	border-left-style: dotted;
+	border-left-color: blue;
+	border-bottom-style: dotted;
+	border-bottom-color: blue;
+}
+
+#header h2 {
+	padding: 0 12px;
+	color: blue;
+}
+
+#menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin-right: 175px;
+	min-width: 15%;
+	top: 0;
+}
+
+#menu h1 {
+	margin-left: 50px;
+	padding: 5px 10px;
+	background-clip: text;
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: blue;
+    color: blue;
+    max-width: 75%;
+    min-width: 75%;
+    box-shadow: -5px -5px 0 blue;
+}
+
+#menu h1:hover {
+	background-color: blue;
+	color: white;
+	box-shadow: blue;
+} 
+
+#this {
+	position: fixed;
+	top: 0;
+}
+
+#header h4 {
+	margin-top: 0;
+	color: white;
+	font-size: 100%;
+}
+
+#header h4:hover {
+	font-size: 300%
+}
+
+
+#col {
+	background-image: linear-gradient(#CE0075, blue);
+	overflow: hidden;
+	background-color: white;
+	opacity: 0.8;
+	border-width: 1px;
+	border-style: solid;
+	border-color: blue;
+    color: blue;
+    width: 10%;
+    box-shadow: -15px -15px 0 blue;
+}
+
+img {
+	width: 180%;
+	opacity: 0.7;
+}
+
+#col:hover {
+	opacity: 1;
+}
+
+#col {
+	margin-left: 50px;
+	text-align: center;
+	height: 200px;
+	width: 25%;
+	display: inline-block;
+}
+
+
+h1 {
+	color: blue;
+}
