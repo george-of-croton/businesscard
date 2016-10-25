@@ -11,12 +11,15 @@ a {
 }
 
 #contact {
-	height: 550px;
+	bottom: 0;
+	position: absolute;
 }
+
 
 #projects {
 	height: 600px;
 	padding-top: 150px;
+	margin-bottom: 100px;
 }
 
 #project {
